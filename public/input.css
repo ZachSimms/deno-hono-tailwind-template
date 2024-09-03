@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add in your custom CSS HERE */
+
+:root {
+  color: #fff;
+  background-color: #4A494E;
+  font-family: -apple-system, "system-ui", "Segoe UI", sans-serif;
+}
+
+.hero-text {
+    font-size: 58px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.25),2px 2px 1px rgba(0,0,0,.25);
+}
+
+.subheading-text {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 14px;
+  margin-top: 14px;
+  outline: 0;
+  text-rendering: geometricprecision;
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 1px, rgba(0, 0, 0, 0.25) 2px 2px 1px;
+}
+

@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "autoprefixer": "npm:autoprefixer@^10.4.20",
+    "hono": "jsr:@hono/hono@^4.5.10",
+    "postcss": "npm:postcss@^8.4.44",
+    "tailwindcss": "npm:tailwindcss@^3.4.10"
+  },
+  "tasks": {
+    "start": "deno run --watch --allow-net --allow-read server.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  }
+}
